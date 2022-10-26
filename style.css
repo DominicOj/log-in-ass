@@ -1,0 +1,50 @@
+    body {
+        background-color: rgb(240, 240, 243);
+        font-family: new Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    header {
+        text-align: center;
+        font-size: medium;
+        word-spacing: 2em;
+    }
+    /* unvisited link */
+    
+    a {
+        color: rgb(15, 15, 15);
+        inline-size: 1em;
+    }
+    /* mouse over link */
+    
+    a:hover {
+        color: rgb(42, 42, 93);
+        padding: 1px 1px;
+    }
+    
+    img {
+        align-content: center;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    ul {
+        font-size: 13px;
+    }
+contact.html{
+  font-family: new 'Times New Roman', Times, serif;
+  text-align: centre;
+  header {
+    text-align: centre;
+  }
+}
+h3 { text-align: centre;
+   }
+
+  
+
