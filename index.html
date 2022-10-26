@@ -4,60 +4,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PORTFOLIO</title>
-  <!---External CSS linking-->
-  <link href="style.css" rel="stylesheet" type="text/css" />
-
-  <!--Inline linking-->
+  <title>ZURI REGISTRATIOON</title>
   <style>
-    .class {
-      text-align: center;
+    body {
+      height: 100%;
+      width: 100%;
+      background-color: powderblue;
     }
+
+    h1 {
+      text-align: center;
+      color: rgb(24, 22, 22);
+      font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    input,
+    select {
+      width: 70%;
+      padding: 12px 20px;
+      margin: 2px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=submit] {
+      width: 50%;
+      background-color: rgb(21, 168, 236);
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+   
   </style>
 </head>
 
 <body>
-  <h1> <a id="UP"> </a>DOMINIC OJILE</h1>
-  <p class="class">Fullstack Developer and Graphic Designer.</p>
-  <header>
-    <hr> <a href="https://portfolio-website.sirdominic.repl.co/" title="HOME ">HOME</a>
-    <a href="#ABOUT" title="ABOUT"> ABOUT</a>
-    <a href="#SERVICES" title="SERVICES ">SERVICES</a>
-    <a href="projects.html" title="PROJECTS">PROJECTS</a>
-    <a href="contact.html" title="CONTACTS">CONTACT</a>
-    <hr>
-  </header>
-  <main>
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Dominic_Ojile.jpg/614px-Dominic_Ojile.jpg?20221010181115 "
-      alt="Dominic Ojile " style="width: 250px; height: 250px; ">
-    <u>
-      <h4> <a id="ABOUT"> ABOUT </a></h4>
-    </u>
-    <p>I am a fullstack web developer and graphic designer who is determined to build systems that work and will also
-      improve the way people do things; making the world a better place. I am currently taking a course to advance my
-      skills in web development powered by Ingressive for food and the Zuri Team. As a graghic designer, I have 1year of
-      experience and added to my web development skils I can bring just anything to reality. As a young man, I value
-      learning and delligence with all respect.
-    <p> <u>HOBBIES/OTHER SKILLS</u> <br>Creative writing, Reading, Vlogging, Coding, Designing among others</p>
+  <h1>ZURI REGISTRATION</h1>
 
-    </p>
-    <u>
-      <h4> <a id="SERVICES"></a>SERVICES</h4>
-    </u>
+  <div>
+  
+    <form style="text-align: center; font-family: 'Segoe UI'; font-size: small;" action="/login.html">
+      FirstName: <br>
+      <input type="text" placeholder="FirstName...">
+      <br> LastName: <br>
+      <input type="text" placeholder="LastName...">
+      <br> Phone Number: <br>
+      <input type="tel" placeholder="Phone...">
+      <br> Email:<br>
+      <input type="email" placeholder="Email"> <br>
 
-    <p>These are some of the things I do;</p>
-    <ul>
-      <li>Create websites and softwares</li>
-      <li>Give brands top notch designs(second to none)</li>
-      <li>Collaborate with like minded developers and graphic designers on relevant projects</li>
-      <p>You can check out some of my <a href="projects.html">projects</a> done recently.</p>
-    </ul>
+      <label for="GENDER"> Gender: </label> <br>
 
-  </main>
+      <select name="GENDER" id="GENDER">
+        <option value="none" selected>Gender</option>
+        <option value="male">Male</option>
+        <option value="male">Female</option>
+        <option value="male">Rather not say</option>
+      </select>
 
-  <footer> <a href="#UP">GO UP </a>
-  </footer>
+      <br> Date of Birth: <br>
+      <input type="date">
+
+      <br> Favorite colour:
+      <br> <input type="color">
+      <br>
+
+
+      <input type="submit"><br>
+      <strong>Have an account?</strong> <a href="login.html">Log in</a>
+    
+    </form>
+
+  </div>
+
 </body>
 
 </html>
